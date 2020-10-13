@@ -1,4 +1,4 @@
-# Netflix Clone (Studflix)
+# Studflix a Html and CSS based Netflix Clone
 
 *Available at:* https://studflix.de
 
