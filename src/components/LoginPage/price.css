@@ -1,0 +1,22 @@
+table{
+	width:70vw;
+	margin:20px auto;
+	color:#999;
+}
+
+td {
+	padding:10px 20px;
+}
+
+th{
+	color:white;
+}
+
+td{
+	border-right:1px solid #262626;
+	font-size:0.75rem;
+}
+
+td:last-child{
+	border:none;
+}

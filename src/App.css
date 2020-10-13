@@ -1,0 +1,69 @@
+body{
+  color:white;
+  background:black;
+  text-align:center;
+}
+
+.logo{
+	display:inline-block;
+	width:150px;
+	fill:#e50914;
+}
+
+.button{
+  background-color:#e50914;
+  padding:5px;
+  align-self:center;
+  border-radius:2px;
+}
+
+.cta-btn{
+  padding:20px;
+  display:block;
+  width:40vw;
+  margin:0 auto;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.caps{
+  text-transform:uppercase;
+}
+
+h1{
+  font-size:3rem;
+}
+
+h2{
+  font-size:2rem;
+}
+
+h3{
+  font-size:1.5rem;
+}
+
+.preview-icons{
+  display:flex;
+  justify-content:space-between;
+  width:50vw;
+  margin:0 auto;
+}
+
+.preview-icons div{
+  width:100%;
+  cursor:pointer;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+
+}
+
+.underline {
+  border-bottom:4px solid #e50914;
+}
+
+.svg-icon{
+  height:40px;
+  fill:gray;
+  padding:25px;
+}

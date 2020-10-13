@@ -1,0 +1,44 @@
+<head>
+
+<link rel="stylesheet" href="../style.css">
+<title>STUDFLIX</title>
+
+</head>
+
+<body>
+<style>
+    background {color: black}    
+</style>
+<!--
+<iframe id="player" type="text/html"src="http://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&origin=http://example.com" allowfullscreen autoplay="1" ></iframe>
+-->
+    
+<div id="ytplayer"></div>
+
+<script>
+  // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var player;
+    var videoLink = 'JDthn5Oyazk'; 
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+    display: 'block',       /* iframes are inline by default */
+    background: '#000',
+    border: 'none',         /* Reset default border */
+    height: '100%',        /* Viewport-relative units */
+    width: '100%',
+    color: 'white',
+    videoId: videoLink ,
+    playerVars: {'autoplay': 1, 'fs': 1, 'modestbranding': 1, 'iv_load_policy':3, 'rel':0, 'showinfo':1, 'controls':1},
+    });
+  }
+</script>    
+    
+</body>
+

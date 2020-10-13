@@ -1,0 +1,42 @@
+.hover-icon{
+	background-color:rgba(0,0,0,0.5);
+	padding:10px 25px;
+	margin:5px;
+	border-radius:2px;
+}
+
+.hover-icon:hover{
+	background-color:#e6e6e6;
+	color:#000;
+}
+
+.nav-item{
+	height:30px;
+	padding:20px;
+}
+
+.drop-item{
+	cursor:pointer;
+	margin-bottom:20px;
+}
+
+a{
+	font-size:0.5rem;
+}
+
+p{
+	margin-top:0;
+}
+
+.icon-circle{
+	font-size:0.5rem;
+	padding:0.25rem;
+	background-color:rgba(0,0,0,0.8);
+	border:1px solid black;
+	border-radius:50%;
+	cursor:pointer;
+}
+
+.search-animation{
+	transition:transform 0.5s;
+}
