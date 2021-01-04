@@ -10,6 +10,7 @@ This is a Netflix clone that is build using only html and css. As an additional 
 
 ## Overview of UI 
 
+![Studflix UI](/public/UI.png)
 
 ## Authentification
 
