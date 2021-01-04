@@ -14,7 +14,7 @@ This is a Netflix clone that is build using only html and css. As an additional 
 
 ## Authentification
 
-Authetification via Firebase. Email and Gmail login available.
+Authentification via Firebase. Email and Gmail login available.
 
 ![Studflix auth](/public/signup.png)
 
