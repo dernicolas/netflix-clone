@@ -4,7 +4,7 @@
 
 ## Developed by: Nicolas
 
-This is a Netflix clone that is build using only html and css. As an additional feature authentification via firebase was added. A fully working version of this project is available on https://studflix.de (German version). The inital idea is based on this post about Netflixs carousells.
+This is a Netflix clone that is build using only html and css. As an additional feature authentification via firebase was added. A fully working version of this project is available on https://studflix.de (German version). The inital idea is based on [this](https://codepen.io/joshhunt/pen/LVQZRa) post about Netflixs carousells.
 
 ![Studflix logo](/public/studflix.png)
 
